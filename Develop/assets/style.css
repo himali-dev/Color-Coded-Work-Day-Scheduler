@@ -1,0 +1,92 @@
+body {
+  /* done */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: black;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+}
+
+p{
+  height:90%;
+}
+
+.jumbotron {
+  /* done */
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+/* .description{
+  white-space: pre-wrap;
+} */
+
+.time-block{
+  /* done */
+  text-align: left;
+  border-radius: 15px;
+  font-weight: 400;
+}
+
+.row {
+  /* Done */
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+   /* done */
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  /* done */
+  background-color: lightgray;
+  color: white;
+}
+
+.present {
+  /* done */
+  background-color: red;
+  color: white;
+}
+
+.future {
+/* done */
+  background-color: blueviolet;
+  color: black;
+}
+
+.saveBtn {
+  /* done */
+  border-left: 1px solid white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 10px;
+  background-color: orange;
+  color: white;
+}
+
+.saveBtn i:hover {
+  /* done */
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
